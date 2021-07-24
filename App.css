@@ -1,0 +1,50 @@
+.mainhead {
+  width: 100%;
+  background-color: #282c34;
+  padding: 24px 48px 12px;
+  text-align: center;
+  top: 1;
+  left: 0;
+}
+
+.mainhead > img {
+  max-width: 8%;
+  height: auto;
+}
+
+ 
+.Show-cart img {
+    width: 4rem;
+    height: 4rem;
+    color: #2f80ed;
+  }
+  
+  .display-item {
+    margin: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #ccc;
+    background-color: lightcyan;
+  }
+  @media (min-width: 992px){
+    .display-item{
+      width: 30%;
+      display: inline-block;
+    }
+  }
+  .Card {
+    margin: 25px;
+    border-radius: 2%;
+  }
+ 
+  .container {
+    width: 90%;
+    height: 56rem;
+  }
+  .About {
+    min-height: 70vh;
+    background-color: rgb(214, 236, 250);
+    padding: 5%;
+    margin: 40px auto;
+  }
